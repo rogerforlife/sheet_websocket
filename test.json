@@ -1,0 +1,16 @@
+# for websocket connnect
+ws://127.0.0.1:23450?proj_id=1&sheet_id=7&emplid=123333&name=Jason
+
+# for websocket job type
+{"type":"CREATE_SHEET","sheet":{"name":"test"}}
+
+# for api/issue new issue
+{
+    "sheet_id":1,
+    "proj_id":1,
+    "issue":"issue_1",
+    "category":"category_1",
+    "priority":"High",
+    "initiator":123456,
+    "issue_owners":["7777", "8888"]
+}
