@@ -15,7 +15,7 @@ API:
 2. 127.0.0.1/api/sheet_download
   讓使用者下載表單內容成excel。
 3. 127.0.0.1/api/fetch_data
-  讓外部系統已apikey查詢資料。
+  讓外部系統查詢資料，須夾帶apikey驗證。
 
 Websocket:
 1. LOCATION_CHANGE: 使用者在表單的位置
